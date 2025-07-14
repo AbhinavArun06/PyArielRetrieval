@@ -104,17 +104,16 @@ License
 MIT License - See LICENSE for full terms.
 Scientific Attribution Requirement: Publications using this software must cite:
 
-This repository: https://github.com/yourusername/PyArielRetrieval
+This repository: https://github.com/AbhinavArun06/PyArielRetrieval
 
-Associated paper (if applicable): [DOI LINK]
 Citation:
 @software{PyArielRetrieval,
-  author = {Your Name and Collaborators},
+  author = {Abhinav Arun},
   title = {PyArielRetrieval: GPU-Accelerated Atmospheric Retrieval Pipeline},
-  year = {2023},
+  year = {2025},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/yourusername/PyArielRetrieval}}
+  howpublished = {\url{https://github.com/AbhinavArun06/PyArielRetrieval}}
 }
 Acknowledgments: This work was supported by Kaggle
 The software is not an official ESA/Ariel product.
