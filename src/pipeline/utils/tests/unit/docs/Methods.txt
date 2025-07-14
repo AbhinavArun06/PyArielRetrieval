@@ -1,0 +1,25 @@
+
+### **`examples/basic_usage.ipynb`**
+A Jupyter notebook demonstrating:
+1. Loading Ariel data
+2. Running the pipeline
+3. Plotting results
+
+---
+
+## **6. GitHub Actions (`.github/workflows/tests.yml`)**
+```yaml
+name: Tests
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
+        with:
+          python-version: "3.9"
+      - run: pip install -e .[dev]
+      - run: pytest --cov=src --cov-report=xml
+      - uses: codecov/codecov-action@v2

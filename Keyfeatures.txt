@@ -1,0 +1,12 @@
+Key Features
+Type Safety: Full mypy/Pylance strict checking
+
+Modular Design: Separated photometry/spectroscopy components
+
+Reproducibility: Conda + pip exact dependency control
+
+Validation: Unit + integration test coverage
+
+Performance: GPU acceleration via CuPy
+
+Documentation: Sphinx + Jupyter notebooks
